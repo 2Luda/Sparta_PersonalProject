@@ -1,0 +1,13 @@
+package com.sparta.sparta_personalproject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpartaPersonalProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpartaPersonalProjectApplication.class, args);
+	}
+
+}
