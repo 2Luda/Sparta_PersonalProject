@@ -1,3 +1,4 @@
+https://jihos-organization.gitbook.io/spring-lv-1-api/ 여기로 가시면 더 깔끔하게 보실 수 있습니다.. 깃 사용이 미숙해서.. 죄송합니다
 ---
 description: 게시판 조회 / 선택조회 / 게시글 작성 / 수정 / 삭제 기능 api 입니다.
 ---
