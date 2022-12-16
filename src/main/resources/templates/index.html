@@ -88,18 +88,18 @@
             return true;
         }
 
-        // 익명의 username을 만듭니다.
-        function genRandomName(length) {
-            let result = '';
-            let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-            let charactersLength = characters.length;
-            for (let i = 0; i < length; i++) {
-                let number = Math.random() * charactersLength;
-                let index = Math.floor(number);
-                result += characters.charAt(index);
-            }
-            return result;
-        }
+        // // 익명의 username을 만듭니다.
+        // function genRandomName(length) {
+        //     let result = '';
+        //     let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        //     let charactersLength = characters.length;
+        //     for (let i = 0; i < length; i++) {
+        //         let number = Math.random() * charactersLength;
+        //         let index = Math.floor(number);
+        //         result += characters.charAt(index);
+        //     }
+        //     return result;
+        // }
 
         // 메모를 생성합니다.
         function writePost() {

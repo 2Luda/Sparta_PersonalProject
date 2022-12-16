@@ -1,5 +1,6 @@
 package com.sparta.sparta_personalproject.BlogEntity;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.MappedSuperclass;
@@ -17,8 +18,10 @@ import java.time.LocalDateTime;
 public class Timestamped {
 
     @CreatedDate
+    @Column
     private LocalDateTime createAt;
 
     @LastModifiedDate
+    @Column
     private LocalDateTime modifiedAt;
 }
